@@ -4,6 +4,9 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
+nav .navbar-header .navbar-brand {
+    padding-right: 5px;
+}
 .carousel {
     margin-top: 25px;
 }
