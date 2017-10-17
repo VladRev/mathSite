@@ -1,0 +1,12 @@
+.news-block img {
+    width: 100%;
+}
+.news-block hr {
+    margin: 50px 0;
+}
+.news-block h3 {
+    margin-top: 0;
+}
+.news-block strong {
+    display: block;
+}

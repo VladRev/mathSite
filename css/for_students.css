@@ -1,0 +1,6 @@
+.for-students-block img {
+    width: 100%;
+}
+.for-students-block img:first-child {
+    margin-bottom: 50px;
+}
