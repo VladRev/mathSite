@@ -1,0 +1,80 @@
+body {
+    margin-top: 51px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.carousel {
+    margin-top: 25px;
+}
+.carousel .item {
+    min-height: 425px;
+}
+.carousel .item-1 {
+    background: #ccc url("../images/carousel_1.jpg") no-repeat 50%;
+    background-size: 100%;
+}
+.carousel .item-2 {
+    background: #ccc url("../images/carousel_2.jpg") no-repeat 50% 90%;
+    background-size: 100%;
+}
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+}
+.teacher-title{
+    text-align: center;
+}
+.teacher-align{
+    text-align: center;
+    background: #e7eee8;
+    border-radius: 50px;   
+}
+.image{
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.name{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.about{
+    font-size: 15px;
+    font-weight: bold;
+}
+.disc{
+    font-size: 15px;
+    font-weight: inherit;
+}
+.disc span{
+    font-size: 18px;
+    font-weight: inherit;
+}
+.personal-page{
+    padding: 10px;
+}
+/* FOOTER */
+footer {
+    margin-top: 50px;
+    padding: 25px 0;
+    background-color: #31353a;
+    border-top: 3px solid #666;
+}
+footer .col-lg-12 {
+    display: table;
+}
+footer a {
+    display: table-cell;
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 15px;
+    text-align: center;
+}
+footer a:hover,
+footer a:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+}

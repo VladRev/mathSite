@@ -1,111 +1,59 @@
-<!DOCTYPE html>
-<html lang="ua">
+<!doctype html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Професори. Кафедра вищої математики. ВНТУ</title>
-   <link rel="stylesheet" href="image.css">
-     <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> 
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Alice|Merriweather|Pangolin|Pattaya" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Alice|Lobster|Oswald|Roboto" rel="stylesheet">
-    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="../libs/bootstrap-3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/profesor.css">
 
-<style>
-   figure {
-    width: 90%; /* Ширина */
-    float: left; /* Выстраиваем элементы по горизонтали */
-    border-radius: 5px; /* Радиус скругления */
-    padding: 2%; /* Поля */
-   }
-   figure:first-child {
-    margin-left: 0; /* Убираем отступ для первого элемента */
-   }
-  </style>
-
+    <title>Професори | Кафедра вищої математики</title>
 </head>
 <body>
-<div class="navigation">
-  <div class="new-menu"> 
-           <a id="shows" href="#" onClick="return false;" ><img src="drop-down2.png" class="drop-down" alt=""></a>
-            <a id="hides" href="#" onClick="return false;" style="display: none;"><img src="drop-down2.png" class="drop-down" alt=""></a>
-        
-        
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand">Кафедра вищої математики</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="">Головна</a></li>
+                <li><a href="history.html">Історія</a></li>
+                <li class="active"><a href="profesors.html">Викладачі</a></li>
+                <li><a href="for_students.html">Розклад викладачів</a></li>
+                <li><a href="news.html">Новини</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+        </div>
     </div>
-   <ul class="nav">
-       <li><a href="index.html">Головна</a></li>
-       <li><a href="history.html">Історія</a></li>
-       <li><a href="#">Викладачі</a></li>
-       <li><a href="for_students.html">Розклад викладачів</a></li>
-       <li><a href="news.html">Новини</a></li>
-       <li><a href="contacts.html">Контакти</a></li>
-   </ul>
-</div>
-  <div id="menu" style="display: none;">
-           <ul class="navig" >
-               <li><a href="index.html">Головна</a></li>
-               <li><a href="history.html">Історія</a></li>
-               <li><a href="#">Викладачі</a></li>
-          </ul>
-          <ul class="navig2" >
-               <li><a href="for_students.html">Розклад викладачів</a></li>
-               <li><a href="news.html">Новини</a></li>
-               <li><a href="contacts.html">Контакти</a></li>
-           </ul>
-</div>
-   <div class="clear"></div>
-   <div class="main effect8">
-        <div class="logo">
-             <img class="logotip" src="Math2.jpg" alt="">
-         </div>
-         <!--<br><br><br><br>
-         <div class="fotorama">
-            <img src="123.jpg" alt="">
-            <img src="math%20(1).jpg" alt="">
-            <img src="140722_115936_native-american-mentors_braudie_7d99e4db6e546849ef61193fa77fbdd3.nbcnews-fp-1000-400.jpg" alt="">
-             <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
-         </div>-->
-         <br><br><br>
-         <div class="profesors-list">
-             <h3>Викладачі та співробітники кафедри</h3><br>
-<!--     <did id="group"><img id="group" src="profesors/all.jpg" alt="">
-                     <img id="group" src="profesors/kaf-pm.jpg" alt="">
-     </did>
-     -->
-     <table border="0">
-   <tr>
-    <th>&nbsp</th>
-<th style="width: 50%;">
-        <div class="group">
-            <figure><img id="group" src="profesors/all.jpg" alt="" width=100%></figure>
-                    
-         </div>
-</th>
-    <th>&nbsp</th>
-<th style="width: 50%;">
-        <div class="group">            
-                     <figure><img id="group" src="profesors/kaf-pm.jpg" alt="" width=100%></figure>
-         </div>
-</th>
-    <th>&nbsp</th>
-   </tr>
+</nav>
 
-
- </table>
-
-             <div class="clear"></div>
-             <table>
-                 <tr>
-                     <td><img class="image" src="profesors/Mihalevich.jpg" alt=""></td>
-                     <td> <div class="text"><p class="name">Михалевич Володимир Маркусович</p> 
+<div class="container">
+    <div class="teacher-title">
+        <h2>
+Викладачі та співробітники кафедри
+      </h2>
+       
+    </div>
+    
+    
+    
+    <div class="teacher">
+                     <div class="teacher-align">
+                     <img class="image" src="../images/profesors/Mihalevich.jpg" alt="">
+                      <div class="text"><p class="name">Михалевич Володимир Маркусович</p> 
                      <p class="about">д.т.н., професор
                          <br>завідувач кафедри вищої математики</p>
                          <p class="disc"><span class="black">Дисципліни:</span> математичне програмування, вища математика, теорія ймовірностей</p>
                          <p class="personal-page"><a href="http://michalevichvolodymyr.vk.vntu.edu.ua/">Особиста сторінка</a></p>
-                         </div></td>
-                 </tr>
-                 <tr>
-                     <td><img class="image" src="profesors/Clochko.jpg" alt=""></td>
-                     <td>
+                         </div>
+        </div>
+                   <hr>
+                    <div class="teacher-align">
+                     <img class="image" src="../images/profesors/Clochko.jpg" alt="">
                          <div class="text">
                              <p class="name">Клочко Віталій Іванович</p>
                              <p class="about">д.п.н., професор</p>
@@ -113,269 +61,211 @@
                              <p class="disc"><span class="black">Наукові інтереси:</span> Інформацiйно-комунiкацiйні технологiї <br> навчання фундаментальних та спеціальних дисциплін</p>
                              <p class="personal-page"><a href="http://klochkovitaliy.vk.vntu.edu.ua/">Особиста сторінка</a></p>
                          </div>
-                     </td>
-                 </tr>
-                 <tr>
-                     <td><img class="image" src="profesors/Petruk.jpg" alt=""></td>
-                     <td><div class="text">
+        </div>
+              <hr>
+               <div class="teacher-align">
+                
+                     <img class="image" src="../images/profesors/Petruk.jpg" alt="">
+                     <div class="text">
                          <p class="name">Петрук Віра Андріївна</p>
                          <p class="about">д.п.н., професор, академік Академії наук прикладної радіоелектроніки</p>
                          <p class="disc"><span class="black">Дисципліни:</span> лінійна та векторна алгебра, елементи аналітичної геометрії, математичний аналіз, теорія функцій комплексної змінної, операційне числення, теорія ймовірностей</p>
                          <p class="disc"><span class="black">Наукові інтереси:</span> теорія і методика професійної освіти, застосуванні вищої математики в оптимізаційних задачах</p>
                          <p class="personal-page"><a href="http://petrukvera.vk.vntu.edu.ua/">Особиста сторінка</a></p>
-                     </div></td>
-                 </tr>
-                 <tr>
-                     <td><img class="image" src="profesors/Homuk.jpg" alt=""></td>
-                     <td><div class="text">
+                     </div>
+        </div><hr>
+                <div class="teacher-align">
+                 
+                     <img class="image" src="../images/profesors/Homuk.jpg" alt="">
+                     <div class="text">
                          <p class="name">Хом’юк Ірина Володимирівна</p>
                          <p class="about">д.п.н., професор</p>
                          <p class="disc"><span class="black">Дисципліни:</span> вища математика, дослідження операцій, теорія ймовірностей</p>
                          <p class="disc"><span class="black">Наукові інтереси:</span>теорія і методика професійної освіти; розробка  та впровадження інтерактивних технологій навчання фундаментальних дисциплін студентів технічних ВНЗ</p>
                          <p class="personal-page"><a href="http://homyukirinav.vk.vntu.edu.ua/">Особиста сторінка</a></p>
-                     </div></td>
-                 </tr>
-                 <tr>
-                     <td><img class="image" src="profesors/Bondarenco.jpg" alt=""></td>
-                     <td><div class="text">
+                     </div>
+        </div><hr>
+                    <div class="teacher-align">
+                     <img class="image" src="../images/profesors/Bondarenco.jpg" alt="">
+                     <div class="text">
                          <p class="name">Бондаренко Злата Василівна</p>
                          <p class="about">к.п.н., доцент, заступник директора центру міжнародних зв’язків</p>
                          <p class="disc"><span class="black">Дисципліни:</span> вища математика</p>
                          <p class="disc"><span class="black">Наукові інтереси:</span> інформаційні технології у викладанні вищої математики</p>
                     <p class="personal-page"><a href="http://bondarenkozlata.vk.vntu.edu.ua/">Особиста сторінка</a></p>
-                     </div></td>
-                 </tr>
-                 <tr>
-                     <td><img class="image" src="profesors/Derech.jpg" alt=""></td>
-                     <td><div class="text">
+                     </div>
+        </div><hr>
+                    <div class="teacher-align">
+                     <img class="image" src="../images/profesors/Derech.jpg" alt="">
+                     <div class="text">
                          <p class="name">Дереч Володимир Дмитрович</p>
                          <p class="about">к.фіз-мат.н., доцент</p>
                          <p class="personal-page"><a href="http://derechvolodymyr.vk.vntu.edu.ua/">Особиста сторінка</a></p>
-                     </div></td>
-                 </tr>
-                 <tr>
-                     <td><img class="image" src="profesors/Cashtanova.jpg" alt=""></td>
-                     <td><div class="text">
+                     </div>
+        </div><hr>
+                    <div class="teacher-align">
+                     <img class="image" src="../images/profesors/Cashtanova.jpg" alt="">
+                     <div class="text">
                          <p class="name">Кашканова Галина Григорівна</p>
                          <p class="about">к.п.н., доцент</p>
                          <p class="personal-page"><a href="http://kashkanovagalina.vk.vntu.edu.ua/">Особиста сторінка</a></p>
-                     </div></td>
-                 </tr>
-                 <tr>
-                     <td><img class="image" src="profesors/Kirilaschuk.jpg" alt=""></td>
-                     <td><div class="text">
+                     </div>
+        </div><hr>
+                    <div class="teacher-align">
+                     <img class="image" src="../images/profesors/Kirilaschuk.jpg" alt="">
+                     <div class="text">
                          <p class="name">Кирилащук Світлана Анатоліївна</p>
                          <p class="about">к.п.н, доцент</p>
                          <p class="disc"><span class="black">Дисципліни:</span>вища математика</p>
                          <p class="disc"><span class="black">Наукові інтереси:</span>інноваційні технології навчання майбутніх фахівців технічних спеціальностей</p>
                          <p class="personal-page"><a href="http://kyrylashchuksvitlana.vk.vntu.edu.ua/">Особиста сторінка</a></p>
-                     </div></td>
-                 </tr>
-                 <tr>
-                     <td><img class="image" src="profesors/Kovalchuk.jpg" alt=""></td>
-                     <td><div class="text">
+                     </div>
+        </div>
+                  <hr>  <div class="teacher-align">
+                     <img class="image" src="../images/profesors/Kovalchuk.jpg" alt="">
+                     <div class="text">
                          <p class="name">Ковальчук Майя Борисівна</p>
                          <p class="about">к.п.н, доцент</p>
                          <p class="disc"><span class="black">Дисципліни:</span> вища математика</p>
                          <p class="disc"><span class="black">Наукові інтереси:</span> інформацiйно-комунiкацiйні технологiї навчання фундаментальних та спеціальних дисциплін</p>
                          <p class="personal-page"><a href="http://kovalchukmayja.vk.vntu.edu.ua/">Особиста сторінка</a></p>
-                     </div></td>
-                 </tr>
-                 <tr>
-                     <td><img class="image" src="profesors/Colomiec.jpg" alt=""></td>
-                     <td><div class="text">
+                     </div>
+        </div><hr>
+                    <div class="teacher-align">
+                     <img class="image" src="../images/profesors/Colomiec.jpg" alt="">
+                     <div class="text">
                          <p class="name">Коломієць Альона Анатоліївна</p>
                          <p class="about">к.п.н, доцент</p>
                          <p class="disc"><span class="black">Дисципліни:</span> вища математика</p>
                          <p class="disc"><span class="black">Наукові інтереси:</span> формування мотивації студентів до навчально-пізнавальної діяльності, фундаменталізація навчання у вищій школі</p>
                          <p class="personal-page"><a href="http://kolomiecalena.vk.vntu.edu.ua/">Особиста сторінка</a></p>
-                     </div></td>
-                 </tr>
-                 <tr>
-                     <td><img class="image" src="profesors/Craevski.jpg" alt=""></td>
-                     <td><div class="text">
+                     </div>
+        </div><hr>
+                    <div class="teacher-align">
+                     <img class="image" src="../images/profesors/Craevski.jpg" alt="">
+                     <div class="text">
                          <p class="name">Краєвський Володимир Олександрович</p>
                          <p class="about">к.т.н., доцент</p>
                          <p class="disc"><span class="black">Дисципліни:</span> математика, вища математика, теорія ймовірностей</p>
                          <p class="disc"><span class="black">Наукові інтереси:</span> процеси холодної деформації металів, моделювання напружено-деформованого та граничного станів зразків під час деформування.</p>
                          <p class="personal-page"><a href="http://kraevskyyvolodymyr.vk.vntu.edu.ua/">Особиста сторінка</a></p>
-                     </div></td>
-                 </tr>
-                 <tr>
-                     <td><img class="image" src="profesors/Sachanuk.jpg" alt=""></td>
-                     <td><div class="text">
+                     </div>
+        </div><hr>
+                    <div class="teacher-align">
+                     <img class="image" src="../images/profesors/Sachanuk.jpg" alt="">
+                     <div class="text">
                          <p class="name">Сачанюк-Кавецька Наталія Василівна</p>
                          <p class="about">к.т.н., доцент</p>
                          <p class="personal-page"><a href="http://sachanjuknatalia.vk.vntu.edu.ua/">Особиста сторінка</a></p>
-                     </div></td>
-                 </tr>
-                 <tr>
-                     <td><img class="image" src="profesors/Homuk2.jpg" alt=""></td>
-                     <td><div class="text">
+                     </div>
+        </div><hr>
+                    <div class="teacher-align">
+                     <img class="image" src="../images/profesors/Homuk2.jpg" alt="">
+                     <div class="text">
                          <p class="name">Хом’юк Віктор Вікторович</p>
                          <p class="about">к.т.н., доцент</p>
                          <p class="disc"><span class="black">Дисципліни:</span> вища математика, теорія ймовірностей</p>
                          <p class="disc"><span class="black">Наукові інтереси:</span> паралельні методи та засоби мультиобробки масивів даних з орієнтацією на нейроструктури; теорія і методика професійної освіти; розробка  та впровадження інтерактивних технологій навчання фундаментальних дисциплін студентів технічних ВНЗ</p>
                          <p class="personal-page"><a href="http://homyukviktor.vk.vntu.edu.ua/">Особиста сторінка</a></p>
-                     </div></td>
-                 </tr>
-                 <tr>
-                     <td><img class="image" src="profesors/Dobranuk.jpg" alt=""></td>
-                     <td><div class="text">
+                     </div>
+        </div><hr>
+                    <div class="teacher-align">
+                     <img class="image" src="../images/profesors/Dobranuk.jpg" alt="">
+                     <div class="text">
                          <p class="name">Добранюк Юрій Володимирович</p>
                          <p class="about">к.т.н., доцент кафедри вищої математики</p>
                          <p class="disc"><span class="black">Дисципліни:</span> вища математика, математика для довузівської підготовки студентів-іноземців</p>
                          <p class="disc"><span class="black">Наукові інтереси:</span> моделювання напружено-деформованого та граничного станів зразків під час деформування. Програми скінчено-елементного моделювання (Deform, Ansys, Q-form, Ls-Dyna)</p>
                          <p class="personal-page"><a href="http://dobranyukjuriy.vk.vntu.edu.ua/">Особиста сторінка</a></p>
-                     </div></td>
-                 </tr>
-                 <tr>
-                     <td><img class="image" src="profesors/Crupskii.jpg" alt=""></td>
-                     <td><div class="text">
+                     </div>
+        </div><hr>
+                    <div class="teacher-align">
+                     <img class="image" src="../images/profesors/Crupskii.jpg" alt="">
+                     <div class="text">
                          <p class="name">Крупський Ярослав Володимирович</p>
                          <p class="about">к.п.н., доцент кафедри вищої математики</p>
                          <p class="disc"><span class="black">Дисципліни:</span> вища математика, теорія ймовірностей, математика для довузівської підготовки студентів-іноземців</p>
                          <p class="disc"><span class="black">Наукові інтереси:</span> СКМ Maple, фундаменталізація навчання у вищій школі, інноваційні технології навчання</p>
                          <p class="personal-page"><a href="http://krupskyyyaroslaw.vk.vntu.edu.ua/">Особиста сторінка</a></p>
-                     </div></td>
-                 </tr>
-                 <tr>
-                     <td><img class="image" src="profesors/Prozor.jpg" alt=""></td>
-                     <td><div class="text">
+                     </div>
+        </div><hr>
+                    <div class="teacher-align">
+                     <img class="image" src="../images/profesors/Prozor.jpg" alt="">
+                     <div class="text">
                          <p class="name">Прозор Олена Петрівна</p>
                          <p class="about">к.п.н., доцент кафедри вищої математики</p>
                          <p class="disc"><span class="black">Дисципліни:</span> вища математика</p>
                          <p class="disc"><span class="black">Наукові інтереси:</span> інноваційні технології навчання майбутніх фахівців технічних спеціальностей</p>
                          <p class="personal-page"><a href="http://prozorolena.vk.vntu.edu.ua/">Особиста сторінка</a></p>
-                     </div></td>
-                 </tr>
-                  <tr>
-                     <td><img class="image" src="profesors/Tutunic.jpg" alt=""></td>
-                     <td><div class="text">
+                     </div>
+        </div><hr>
+                    <div class="teacher-align">
+                     <img class="image" src="../images/profesors/Tutunic.jpg" alt="">
+                     <div class="text">
                          <p class="name">Тютюнник Оксана Іванівна</p>
                          <p class="about">к.п.н., доцент кафедри вищої математики</p>
                          <p class="disc"><span class="black">Дисципліни: </span>вища математика, елементарна математика, математичне програмування.</p>
                          <p class="disc"><span class="black">Наукові інтереси:</span> СКМ Maple, інноваційні технології навчання</p>
                          <p class="personal-page"><a href="http://tutunnikoksana.vk.vntu.edu.ua/">Особиста сторінка</a></p>
-                     </div></td>
-                 </tr>
-                 <tr>
-                     <td><img class="image" src="profesors/Abramchuk.jpg" alt=""></td>
-                     <td><div class="text">
+                     </div>
+        </div><hr>
+                    <div class="teacher-align">
+                     <img class="image" src="../images/profesors/Abramchuk.jpg" alt="">
+                     <div class="text">
                          <p class="name">Абрамчук Ігор Васильович</p>
                          <p class="about">старший викладач кафедри вищої математики</p>
                          <p class="disc"><span class="black">Дисципліни:</span> вища математика</p>
                          <p class="disc"><span class="black">Наукові інтереси:</span> обчислювальна математика. Чисельні методи розв’язування систем лінійних алгебричних рівнянь (СЛАР)</p>
                          <p class="personal-page"><a href="http://abramchukigor.vk.vntu.edu.ua/">Особиста сторінка</a></p>
-                     </div></td>
-                 </tr>
-                 <tr>
-                     <td><img class="image" src="profesors/Barcovska.jpg" alt=""></td>
-                     <td><div class="text">
+                     </div>
+        </div><hr>
+                    <div class="teacher-align">
+                     <img class="image" src="../images/profesors/Barcovska.jpg" alt="">
+                     <div class="text">
                          <p class="name">Барковська Алла Андріївна</p>
                          <p class="about">старший викладач кафедри вищої математики</p>
                          <p class="personal-page"><a href="http://barkovskaalla.vk.vntu.edu.ua/">Особиста сторінка</a></p>
-                     </div></td>
-                 </tr>
-                 <tr>
-                     <td><img class="image" src="profesors/Doda.jpg" alt=""></td>
-                     <td><div class="text">
+                     </div>
+        </div><hr>
+                    <div class="teacher-align">
+                     <img class="image" src="../images/profesors/Doda.jpg" alt="">
+                     <div class="text">
                          <p class="name">Дода Анастасія Федорівна</p>
                          <p class="about">асистент кафедри вищої математики</p>
                          <p class="disc"><span class="black">Дисципліни:</span> вища математика, елементарна математика, математичне програмування.</p>
                          <p class="disc"><span class="black">Наукові інтереси:</span> Математична система Maple в елементарній математиці</p>
                          <p class="personal-page"><a href="http://dodaanastasiya.vk.vntu.edu.ua/">Особиста сторінка</a></p>
-                     </div></td>
-                 </tr>
-                 <tr>
-                     <td><img class="image" src="profesors/Cleopa.jpg" alt=""></td>
-                     <td><div class="text">
+                     </div>
+        </div><hr>
+              <div class="teacher-align">       <img class="image" src="../images/profesors/Cleopa.jpg" alt="">
+                     <div class="text">
                          <p class="name">Клєопа Ірина Анатоліївна</p>
                          <p class="about">лаборант</p>
                          <p class="personal-page"><a href="http://kleopairyna.vk.vntu.edu.ua/">Особиста сторінка</a></p>
-                     </div></td>
-                 </tr>
-             </table>
-         </div>
-         <br>
-         <br>
-         <br>
+                     </div>
+        </div>
     </div>
-    <footer>
-        <link rel="stylesheet" href="style2.css">
-<div class="contener">			
-    <ul>
-        <li>
-            <p class="home"><a href="index.html">Головна</a></p>
-            <a class="logo" href="http://vntu.edu.ua">VNTU <i>© 2017</i></a>
-        </li>
-        <li>
-            <p class="services"><a href="news.html">Новини</a></p>
-            <ul>
-                 <li><a href="http://vntu.edu.ua/uk/about-university.html">Новини ВНТУ</a></li>
-            </ul>
-             <ul>
-                <li><a href="http://initki.vntu.edu.ua">Новини фіткі</a></li>
-            </ul>
-        </li>
-        <li>
-            <p class="reachus"><a href="contacts.html">Контакти</a></p>
-            <ul>
-                <li><a href="#">Email</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li>59-85-91, 25-91</li>
-            </ul>
-        </li>
-        <li>
-            <p class="clients"><a href="for_students.html">Розклад викладачів</a></p>
-            <ul>
-                <li><a href="http://vntu.edu.ua">ВНТУ головна</a></li>
-                <li><a href="http://vntu.edu.ua/uk/institutes-and-departments.html">Факультети та кафедри</a></li>
-                <li><a href="http://vntu.edu.ua/uk/information-for-enrollee.html">Довідка абітурієнта</a></li>
-            </ul>
-        </li>
-    </ul>
+    
+    
 </div>
-    </footer>
-    <script type="text/javascript">
-            $(document).ready(function() {
-	$(".image").click(function(){	
-	  	var img = $(this);	
-		var src = img.attr('src');
-		$("body").append("<div class='popup'>"+
-						 "<div class='popup_bg'></div>"+
-						 "<img src='"+src+"' class='popup_img' />"+ 
-						 "</div>"); 
-		$(".popup").fadeIn(800);
-		$(".popup_bg").click(function(){	
-			$(".popup").fadeOut(800);	
-			setTimeout(function() {	
-			  $(".popup").remove(); 
-			}, 800);
-		});
-	});
-	
-});
-    </script>
-        <script type="text/javascript">
-          function showMenu() {
-			$("#menu").show(1000, function() {
-				$("#shows").hide();
-				$("#hides").show();
-			});
-		}
-		function hideMenu() {
-			$("#menu").hide(1000, function() {
-				$("#shows").show();
-				$("#hides").hide();
-			});
-		}
-		$(document).ready(function() {
-			$("#shows").bind("click", showMenu);
-			$("#hides").bind("click", hideMenu);
-		});
-        
-        </script>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <a class="logo" href="http://vntu.edu.ua">VNTU <i>© 2017</i></a>
+                <a href="http://vntu.edu.ua/uk/about-university.html">Новини ВНТУ</a>
+                <a href="http://initki.vntu.edu.ua">Новини ФІТКІ</a>
+                <a href="http://vntu.edu.ua">ВНТУ головна</a>
+                <a href="http://vntu.edu.ua/uk/institutes-and-departments.html">Факультети та
+                    кафедри</a>
+                <a href="http://vntu.edu.ua/uk/information-for-enrollee.html">Довідка абітурієнта</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="./libs/jquery-3.2.1/jquery-3.2.1.min.js"></script>
+<script src="./libs/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
 </body>
 </html>
