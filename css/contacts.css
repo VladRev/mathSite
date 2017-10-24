@@ -1,0 +1,10 @@
+.contacts-block .inner {
+    display: inline-block;
+    background-color: #f8f8f8;
+    padding: 30px 30px 10px;
+    border-radius: 10px;
+    border: 1px solid #e7e7e7;
+}
+.navbar-right {
+    margin-right: 0;
+}

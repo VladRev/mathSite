@@ -4,8 +4,16 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
-nav .navbar-header .navbar-brand {
+nav .navbar-header .navbar-brand,
+nav .navbar-header .navbar-brand:hover {
     padding-right: 5px;
+    color: rgb(148, 165, 187);
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: rgb(169, 189, 214);
+    color: #fff;
 }
 .carousel {
     margin-top: 25px;
@@ -56,6 +64,21 @@ nav .navbar-header .navbar-brand {
     top: 48%;
 }
 
+/* TOP IMAGE */
+.top-image {
+    margin: 25px 0 75px;
+    height: 200px;
+    background: #eee url(../images/top_image.jpg);
+    background-size: 15%;
+    display: flex;
+}
+.top-image h2 {
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
 /* WELCOME BLOCK */
 h2 {
     text-align: center;
@@ -94,7 +117,7 @@ hr {
     width: 300px;
     border-radius: 50%;
     box-shadow: 0 0 3px #aaa;
-    padding: 20px;
+    padding: 15px;
 }
 
 
